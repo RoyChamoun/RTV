@@ -49,7 +49,7 @@ const LogIn = () => {
         <View style={styles.footer}>
           <Text>Don't have an account?</Text>
           <TouchableOpacity
-            onPress={() => navigation.navigate('Signup' as never)}>
+            onPress={() => navigation.navigate('SignUp' as never)}>
             <Text style={styles.signupText}>Sign Up</Text>
           </TouchableOpacity>
         </View>
